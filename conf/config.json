@@ -1,0 +1,8 @@
+{
+  "db_url": "jdbc:mysql://localhost:3306/test?zeroDateTimeBehavior=convertToNull",
+  "db_name": "test",
+  "db_username": "root",
+  "db_password": "",
+  "db_max_pool_size": 100,
+  "service.port":9888
+}

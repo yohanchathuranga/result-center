@@ -1,0 +1,45 @@
+2020-12-30 13:09:20 ERROR TransactionManager:101 - Already Exist;Transaction id already exists. id : tr-007
+  2020-12-30 13:09:20 ERROR TransactionVerticle:76 - Already Exist;Transaction id already exists. id : tr-007
+  2020-12-30 13:09:29 ERROR DAOTransaction:343 - Table 'eventmanager.user' doesn't exist
+  2020-12-30 13:09:29 ERROR TransactionManager:101 - Does Not Exist;User id does not exist . user id : u-02
+  2020-12-30 13:09:29 ERROR TransactionVerticle:76 - Does Not Exist;User id does not exist . user id : u-02
+  2020-12-30 13:12:35 ERROR TransactionManager:101 - Already Exist;Transaction id already exists. id : tr-008
+  2020-12-30 13:12:35 ERROR TransactionVerticle:76 - Already Exist;Transaction id already exists. id : tr-008
+  2020-12-30 14:19:52 ERROR TransactionManager:106 - Already Exist;Transaction id already exists. id : tr-007
+  2020-12-30 14:19:52 ERROR TransactionVerticle:76 - Already Exist;Transaction id already exists. id : tr-007
+  2020-12-30 14:20:35 ERROR TransactionManager:106 - Tolerance Count Exceeds;Tolerance Count of Transaction Exceeds . Transaction Id : tr-007
+  2020-12-30 14:20:35 ERROR TransactionVerticle:76 - Tolerance Count Exceeds;Tolerance Count of Transaction Exceeds . Transaction Id : tr-007
+  2021-01-02 10:03:52 ERROR MainVerticle:70 - Verticle deployment failed.
+  2021-01-02 10:04:41 ERROR TransactionManager:106 - Tolerance Count Exceeds;Tolerance Count of Transaction Exceeds . Transaction Id : tr-007
+  2021-01-02 10:04:41 ERROR TransactionVerticle:76 - Tolerance Count Exceeds;Tolerance Count of Transaction Exceeds . Transaction Id : tr-007
+  2021-01-02 10:05:39 ERROR TransactionManager:106 - Already Exist;Transaction id already exists. id : tr-001
+  2021-01-02 10:05:39 ERROR TransactionVerticle:76 - Already Exist;Transaction id already exists. id : tr-001
+  2021-01-02 10:05:51 ERROR TransactionManager:106 - Already Exist;Transaction id already exists. id : tr-008
+  2021-01-02 10:05:51 ERROR TransactionVerticle:76 - Already Exist;Transaction id already exists. id : tr-008
+  2021-01-02 10:05:59 ERROR TransactionManager:106 - Tolerance Count Exceeds;Tolerance Count of Transaction Exceeds . Transaction Id : tr-007
+  2021-01-02 10:05:59 ERROR TransactionVerticle:76 - Tolerance Count Exceeds;Tolerance Count of Transaction Exceeds . Transaction Id : tr-007
+  2021-01-02 10:06:45 ERROR TransactionManager:106 - Already Exist;Transaction id already exists. id : tr-002
+  2021-01-02 10:06:45 ERROR TransactionVerticle:76 - Already Exist;Transaction id already exists. id : tr-002
+  2021-01-02 14:53:57 ERROR TransactionManager:106 - Already Exist;Transaction id already exists. id : tr-002
+  2021-01-02 14:53:57 ERROR TransactionVerticle:76 - Already Exist;Transaction id already exists. id : tr-002
+  2021-01-02 15:03:02 ERROR TransactionManager:106 - Already Exist;Transaction id already exists. id : tr-002
+  2021-01-02 15:03:02 ERROR TransactionVerticle:76 - Already Exist;Transaction id already exists. id : tr-002
+  2021-01-02 15:06:29 ERROR TransactionManager:106 - Already Exist;Transaction id already exists. id : tr-002
+  2021-01-02 15:06:29 ERROR TransactionVerticle:76 - Already Exist;Transaction id already exists. id : tr-002
+  2021-01-02 15:11:01 ERROR TransactionManager:106 - Already Exist;Transaction id already exists. id : tr-002
+  2021-01-02 15:11:01 ERROR TransactionVerticle:76 - Already Exist;Transaction id already exists. id : tr-002
+  2021-01-02 15:11:07 ERROR TransactionManager:106 - Already Exist;Transaction id already exists. id : tr-002
+  2021-01-02 15:11:07 ERROR TransactionVerticle:76 - Already Exist;Transaction id already exists. id : tr-002
+  2021-01-02 15:16:17 ERROR TransactionManager:106 - Already Exist;Transaction id already exists. id : tr-002
+  2021-01-02 15:16:17 ERROR TransactionVerticle:76 - Already Exist;Transaction id already exists. id : tr-002
+  2021-01-02 15:23:06 ERROR TransactionManager:106 - Already Exist;Transaction id already exists. id : tr-002
+  2021-01-02 15:23:06 ERROR TransactionVerticle:76 - Already Exist;Transaction id already exists. id : tr-002
+  2021-01-03 14:51:35 ERROR DAOSubject:58 - Table 'eventmanager.subject' doesn't exist
+  2021-01-03 14:51:37 ERROR DAOSubject:63 - Table 'eventmanager.subject' doesn't exist
+  2021-01-03 14:51:37 ERROR SubjectManager:66 - Database Exception;Table 'eventmanager.subject' doesn't exist
+  2021-01-03 14:51:37 ERROR SubjectVerticle:75 - Database Exception;Table 'eventmanager.subject' doesn't exist
+  2021-01-03 15:30:09 ERROR DAOSubject:58 - Duplicate entry 'SCS2210' for key 'PRIMARY'
+  2021-01-03 15:30:09 ERROR DAOSubject:63 - Duplicate entry 'SCS2210' for key 'PRIMARY'
+  2021-01-03 15:30:09 ERROR SubjectManager:66 - Database Exception;Duplicate entry 'SCS2210' for key 'PRIMARY'
+  2021-01-03 15:30:09 ERROR SubjectVerticle:75 - Database Exception;Duplicate entry 'SCS2210' for key 'PRIMARY'
+  
