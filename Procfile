@@ -1,1 +1,1 @@
-web: java -jar -Dserver.port=$PORT $JAVA_OPTS target/result-1.0-fat.jar -conf=conf/config.json
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/result-1.0-fat.jar -conf=conf/config.json
