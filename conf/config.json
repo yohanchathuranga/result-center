@@ -1,8 +1,8 @@
 {
-  "db_url": "jdbc:mysql://localhost:3306/test?zeroDateTimeBehavior=convertToNull",
-  "db_name": "test",
-  "db_username": "root",
-  "db_password": "",
+  "db_url": "jdbc:mysql://eu-cdbr-west-01.cleardb.com:3306/heroku_1daa753160a2e11?reconnect=true",
+  "db_name": "heroku_1daa753160a2e11",
+  "db_username": "bea0d9684fce15",
+  "db_password": "20472493",
   "db_max_pool_size": 100,
   "service.port":9888
 }
