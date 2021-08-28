@@ -1,1 +1,1 @@
-web: java -jar target/result-1.0.jar -conf=conf/config.json
+web: java -jar target/result-1.0-fat.jar -conf=conf/config.json
