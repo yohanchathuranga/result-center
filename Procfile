@@ -1,0 +1,1 @@
+web: java -jar target/result-1.0.jar -conf=conf/config.json
