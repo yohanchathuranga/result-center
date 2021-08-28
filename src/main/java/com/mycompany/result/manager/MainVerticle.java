@@ -89,10 +89,10 @@ public class MainVerticle extends AbstractVerticle {
                 executeBlockingFuture -> {
                     try {
 
-                        String dbName = config.getString("db_name", "result");
-                        String dbUrl = config.getString("db_url", "jdbc:mysql://localhost:3306/result?zeroDateTimeBehavior=convertToNull");
-                        String dbUsername = config.getString("db_username", "root");
-                        String dbPassword = config.getString("db_password", "");
+                        String dbName = config.getString("db_name", "heroku_1daa753160a2e11");
+                        String dbUrl = config.getString("db_url", "jdbc:mysql://bea0d9684fce15:20472493@eu-cdbr-west-01.cleardb.com/heroku_1daa753160a2e11?reconnect=true");
+                        String dbUsername = config.getString("db_username", "bea0d9684fce15");
+                        String dbPassword = config.getString("db_password", "20472493");
                         DatabaseConfig dbConfig = new DatabaseConfig();
                         dbConfig.setDb(dbName);
                         dbConfig.setPass(dbPassword);
