@@ -4,5 +4,7 @@
   "db_username": "bea0d9684fce15",
   "db_password": "20472493",
   "db_max_pool_size": 100,
-  "service.port":9888
+  "service.port":9888,
+  "service.host":"0.0.0.0"
+    
 }
