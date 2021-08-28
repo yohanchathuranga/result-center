@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/*.jar -conf=conf/config.json
+web: java -port $PORT $JAVA_OPTS -jar target/*.jar -conf=conf/config.json
